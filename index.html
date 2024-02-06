@@ -6,13 +6,13 @@
     <title>tailwindCss Project-1</title>
     <link rel="stylesheet" href="./src/input.css">
 </head>
-<body class="bg-[#2B2D33]">
+<body class="bg-[#2B2D33] text-pink-600">
     
-    <nav class="bg-[#2B2D33] shadow-xl">
+    <nav class="bg-[#2B2D33] shadow-xl sticky top-0 z-10">
         <div class="container mx-auto ">
             <div class="sm:flex justify-between items-center py-5">
-                <div class="text-center mb-3"> <a class="text-white sm:text-3xl text-xl font-bold " href="#"><span class="text-[#F65023]">S</span>mart Cod<span class="text-[#F65023]">ers</span> </a></div>
-                <ul class="sm:flex text-xl text-white text-center border-t sm:border-none ">
+                <div class="text-center mb-3"> <a class="text-white sm:text-3xl text-2xl font-bold " href="#"><span class="text-[#F65023]">S</span>mart Cod<span class="text-[#F65023]">ers</span> </a></div>
+                <ul class="sm:flex text-xl text-black text-center border-t sm:border-none ">
                     <li class="mt-4 sm:mt-0"><a href="#" class="p-3 text-[#F65023]"> Home </a></li>
                     <li><a href="#" class="p-3 hover:text-[#F65023]"> Products </a></li>
                     <li><a href="#" class="p-3 hover:text-[#F65023]"> Blogs </a></li>
@@ -22,6 +22,63 @@
             </div>
         </div>
     </nav>
+    <header>
+        <div class="container mx-auto border border-t-0 h-[80vh] px-10 pt-10 border-indigo-600 text-white sm:flex justify-around items-center text-center">
+            <div class="animate-pulse">
+                <h1 class="text-2xl sm:text-4xl mb-5 sm:mb-16">Smart Coders: Learn <br> Programming</h1>
+                <button class="bg-indigo-800 hover:bg-indigo-900 px-7 py-3 rounded-full text-xl shadow-xl transition">
+                    Join: FS Programming Skill's Team <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 inline-block ml-3 animate-ping text-red-700 ">
+                    <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                  </svg>
+                  </button>
+            </div>
+            
+            <div class="">
+                <img class="mx-auto py-5 w-1/2 h-1/6 mix-blend-color-dodge brightness-125 saturate-200 -hue-rotate-30 contrast-50 animate-pulse" src="./imges/FS_Frofile_logo-2.png" alt="Fs Graphics">
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto">
+        <section class="my-24">
+            <h2 class="text-white text-3xl text-center mb-12">Our Service</h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                    <div class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer shadow-xl">
+                        <img class="w-1/2 mt-5 mx-auto" src="./imges/logo-D.jpg" alt="Book">
+                        <h4 class="text-white text-lg  underline  underline-offset-8 py-5">Front-End Development</h4>
+                        <p class="text-white "> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer shadow-xl">
+                        <img class="w-1/2 mt-5 mx-auto" src="./imges/c-logo-jpg.jpg" alt="Book">
+                        <h4 class="text-white text-lg  underline  underline-offset-8 py-5">Back-End Development</h4>
+                        <p class="text-white "> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer shadow-xl">
+                        <img class="w-1/2 mt-5 mx-auto" src="./imges/City.jpg" alt="Book">
+                        <h4 class="text-white text-lg  underline  underline-offset-8 py-5">Full-Stack Development</h4>
+                        <p class="text-white "> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer shadow-xl">
+                        <img class="w-1/2 mt-5 mx-auto" src="./imges/Leaf-w.jpg" alt="Book">
+                        <h4 class="text-white text-lg  underline  underline-offset-8 py-5">Javascript Complete Course</h4>
+                        <p class="text-white "> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer shadow-xl">
+                        <img class="w-1/2 mt-5 mx-auto" src="./imges/a-logo-jpg.jpg" alt="Book">
+                        <h4 class="text-white text-lg  underline  underline-offset-8 py-5">Tailwind Css Complete Course</h4>
+                        <p class="text-white "> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1f2937] hover:border-indigo-700 cursor-pointer shadow-xl">
+                        <img class="w-1/2 mt-5 mx-auto" src="./imges/Abstract-F-Jpg.jpg" alt="Book">
+                        <h4 class="text-white text-lg  underline  underline-offset-8 py-5">Bootstrap Complete Course</h4>
+                        <p class="text-white "> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+            
+        </section>
+    </main>
 
 
 </body>
